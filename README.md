@@ -26,5 +26,5 @@ or [**download from GitHub**](https://github.com/moritzruth/JamRSS/releases).
 ## License
 JamRSS by Moritz Ruth is available under the [Apache license 2.0](/LICENSE).
 
-Google Play and the Google Play logo are trademarks of Google LLC.![google-play-badge](https://user-images.githubusercontent.com/23134220/144764224-93021ec8-1271-4033-83bd-b86d36d1e404.png)![google-play-badge](https://user-images.githubusercontent.com/23134220/144764225-3be4fc24-a829-4275-b38b-ec2efba7ea54.png)
+Google Play and the Google Play logo are trademarks of Google LLC.
 
