@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_add_source">Quelle hinzufügen</string>
+    <string name="button_more">Mehr</string>
+    <string name="button_back">Zurück</string>
+    <string name="screen_sources">Quellen</string>
+    <string name="dialog_add_source">Quelle hinzufügen</string>
+    <string name="button_cancel">Abbrechen</string>
+    <string name="button_save">Speichern</string>
+    <string name="button_add">Hinzufügen</string>
+    <string name="button_remove_source">Entfernen</string>
+    <string name="button_view_feed_item">Zeige diesen Artikel</string>
+    <string name="heading_marked_as_read">Als gelesen markiert</string>
+    <string name="button_undo">Rückgängig</string>
+    <string name="message_no_sources">Du hast noch keine Quellen hinzugefügt.</string>
+    <string name="message_no_feed_entries">Keine deiner Quellen hat Artikel.</string>
+    <string name="message_all_sources_disabled">Alle Quellen sind deaktiviert.</string>
+    <string name="message_invalid_url">Die URL ist ungültig.</string>
+    <string name="screen_settings">Einstellungen</string>
+    <string name="settings_show_mark_button">Knopf zum Markieren als (un)gelesen</string>
+    <string name="settings_swipe_to_mark">Wischen zum Markieren als (un)gelesen</string>
+    <string name="message_marked_as_read">Als gelesen markiert</string>
+    <string name="message_marked_as_unread">Als ungelesen markiert</string>
+    <string name="settings_view_source_code">Die App auf GitHub</string>
+    <string name="settings_report_issue">Melde ein Problem</string>
+    <string name="settings_show_licenses">Lizenzen von benutzter Software</string>
+    <string name="message_creator">JamRSS v%1$s wurde von Moritz Ruth entwickelt.</string>
+    <string name="message_license">Es ist verfügbar unter der Apache License 2.0.</string>
+    <string name="screen_licenses">Lizenzen</string>
+    <string name="settings_donate">Spende an den Entwickler</string>
+    <string name="button_mark_existing_as_read">Markiere bisherige Artikel als gelesen</string>
+    <string name="button_okay">Okay</string>
+    <string name="message_offline">Du bist offline</string>
+    <string name="message_source_add_needs_online">Quellen können nur hinzugefügt werden, während du eine Internetverbindung hast.</string>
+    <string name="message_invalid_feed">Der Feed scheint ungültig zu sein.</string>
+    <string name="message_refresh_needs_online">Der Feed kann nur aktualisiert werden, wenn du eine Internetverbindung hast.</string>
+</resources>
