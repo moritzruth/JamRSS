@@ -69,7 +69,7 @@ android {
 
 dependencies {
     implementation("com.rometools:rome:1.16.0")
-    implementation("com.squareup.okhttp3:okhttp:4.9.0")
+    implementation("com.squareup.okhttp3:okhttp:4.9.3")
 
     val aboutlibrariesVersion = "10.0.0-b02"
     implementation("com.mikepenz:aboutlibraries-core:$aboutlibrariesVersion")
@@ -89,7 +89,7 @@ dependencies {
     implementation("androidx.compose.material:material:$composeVersion")
     implementation("androidx.compose.ui:ui-tooling-preview:$composeVersion")
     implementation("androidx.activity:activity-compose:1.4.0")
-    implementation("androidx.navigation:navigation-compose:2.4.0-beta02")
+    implementation("androidx.navigation:navigation-compose:2.4.0-rc01")
 
     // Accompanist
     val accompanistVersion = "0.21.3-beta"
