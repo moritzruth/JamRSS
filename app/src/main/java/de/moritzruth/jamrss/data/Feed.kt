@@ -65,17 +65,24 @@ class Feed(private val applicationScope: CoroutineScope, private val database: A
                 val url = entry.link.trim()
                 val oldItem = oldItems.find { it.url == url }
 
-                val fullDescription = Html.fromHtml(entry.description.value, Html.FROM_HTML_MODE_COMPACT).toString()
-                val description = truncateWithEllipsis(
-                    DESCRIPTION_MAX_LENGTH,
-                    rewriteWithoutLineBreaks(collapseMultipleLineBreaks(fullDescription).trim())
-                )
+                val fullDescription = entry.description?.value ?: entry.contents.firstOrNull()?.value
+
+                val descriptionAsText = fullDescription?.let {
+                    Html.fromHtml(it, Html.FROM_HTML_MODE_COMPACT).toString()
+                }
+
+                val description = descriptionAsText?.let {
+                    truncateWithEllipsis(
+                        DESCRIPTION_MAX_LENGTH,
+                        rewriteWithoutLineBreaks(collapseMultipleLineBreaks(it).trim())
+                    )
+                }
 
                 FeedItem(
                     title = entry.title.trim(),
                     url = url,
                     description = description,
-                    publicationDate = entry.publishedDate,
+                    publicationDate = entry.publishedDate ?: entry.updatedDate,
                     isRead = oldItem?.isRead ?: false,
                     sourceUrl = source.url
                 )

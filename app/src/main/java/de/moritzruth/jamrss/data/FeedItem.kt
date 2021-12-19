@@ -29,8 +29,8 @@ data class FeedItem(
     @PrimaryKey
     val url: String,
     val title: String,
-    val description: String,
-    val publicationDate: Date,
+    val description: String?,
+    val publicationDate: Date?,
     val isRead: Boolean,
     val sourceUrl: String
 ) {

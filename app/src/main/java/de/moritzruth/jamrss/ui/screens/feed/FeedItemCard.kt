@@ -80,7 +80,7 @@ private fun ItemCard(feedItem: FeedItem, setIsRead: (value: Boolean) -> Unit) {
                             overflow = TextOverflow.Ellipsis
                         )
 
-                        Text(
+                        if (feedItem.description != null) Text(
                             feedItem.description,
                             Modifier.height(IntrinsicSize.Min),
                             fontSize = 14.sp,
@@ -91,10 +91,11 @@ private fun ItemCard(feedItem: FeedItem, setIsRead: (value: Boolean) -> Unit) {
 
                         Row(
                             Modifier
-                                .padding(top = 8.dp)
+                                .padding(top = if (feedItem.description == null) 4.dp else 8.dp)
                                 .fillMaxWidth()
                         ) {
-                            Text("${dateFormat.format(feedItem.publicationDate)} • ", fontSize = 11.sp, color = color)
+                            if (feedItem.publicationDate != null)
+                                Text("${dateFormat.format(feedItem.publicationDate)} • ", fontSize = 11.sp, color = color)
 
                             Text(
                                 sourceName,
