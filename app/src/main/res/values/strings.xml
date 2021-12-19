@@ -22,7 +22,7 @@
     <string name="message_marked_as_read">Marked as read</string>
     <string name="message_marked_as_unread">Marked as unread</string>
     <string name="settings_view_source_code">The app on GitHub</string>
-    <string name="settings_report_issue">Report an issue</string>
+    <string name="settings_contact_developer">Contact the developer</string>
     <string name="settings_show_licenses">Show licenses of software used in this app</string>
     <string name="message_creator">JamRSS v%1$s was created by Moritz Ruth.</string>
     <string name="message_license">It is licensed under the Apache License 2.0.</string>

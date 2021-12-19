@@ -51,7 +51,7 @@ fun SettingsScreen(navController: NavHostController) {
 
             LinkSetting(text = stringResource(R.string.settings_donate), url = "https://ko-fi.com/moritzruth")
             LinkSetting(text = stringResource(R.string.settings_view_source_code), url = "https://github.com/moritzruth/JamRSS")
-            LinkSetting(text = stringResource(R.string.settings_report_issue), url = "https://moritzruth.de/contact")
+            LinkSetting(text = stringResource(R.string.settings_contact_developer), url = "https://moritzruth.de/contact?ref=jamrss")
 
             Setting(text = stringResource(R.string.settings_show_licenses), onClick = {
                 navController.navigate("licenses")
